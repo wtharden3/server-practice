@@ -18,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/wtharden3/server-practice/issues"
   },
-  "homepage": "https://github.com/wtharden3/server-practice#readme"
+  "homepage": "https://github.com/wtharden3/server-practice#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  }
 }

@@ -13,10 +13,18 @@ An in-depth paragraph about your project and overview of use.
 * Describe any prerequisites, libraries, OS version, etc., needed before installing program.
 * ex. Windows 10
 
+npm
+node
+express
+
+#### dev-dependencies
+
+nodemon (locally or in the project)
+
 ### Installing
 
 * How/where to download your program
-*Any modifications neede to be made to files/folders
+* Any modifications neede to be made to files/folders
 
 ### Executing program
 
@@ -33,6 +41,10 @@ Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
+
+### Tips:
+
+* if you start your server and need to stop remember ```control``` + ```C```
 
 ## Authors
 

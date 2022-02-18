@@ -1,0 +1,22 @@
+{
+  "name": "server-practice",
+  "version": "1.0.0",
+  "description": "This is a PERN server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wtharden3/server-practice.git"
+  },
+  "keywords": [
+    "pern"
+  ],
+  "author": "Whitney Harden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wtharden3/server-practice/issues"
+  },
+  "homepage": "https://github.com/wtharden3/server-practice#readme"
+}

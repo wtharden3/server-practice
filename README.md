@@ -41,6 +41,10 @@ Contributors names and contact info
 ex. Whitney Harden
 ex. [wtharden320@gmail.com](wtharden320@gmail.com)
 
+## Version Management
+
+This project will be using [trunk-based development](https://www.atlassian.com/continuous-delivery/continuous-integration/trunk-based-development)
+
 ## Version History
 
 * 0.2

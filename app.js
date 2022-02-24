@@ -45,9 +45,12 @@ app.get('/todo/:id', async (req, res) => {
 })
 
 //update a todo
-app.put('todo/:id', (req, res) => {
+app.put('/todo/:id', async (req, res) => {
   try {
-    const {id} = req.params; //destructuring
+   const {id} = req.params;
+   const {description} = req.body;
+   const updateTodo = await pool.query("UPDATE todo SET description = $1 WHERE todo_id = $2", [description, id]);
+   res.json(`updated!`)
   } catch (err) {
     console.error(`[ERROR] ${err.message}`);
   }

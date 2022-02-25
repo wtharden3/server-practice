@@ -70,5 +70,5 @@ app.delete('/todo/:id', async (req, res) => {
 
 //listen to port number
 app.listen(4040, () => {
-  console.log(`❗️SERVER❗️ has started on Port 8888 😉`);
+  console.log(`❗️SERVER❗️ has started on Port 4040 😉!`);
 })
